@@ -4,10 +4,21 @@ import ("fmt")
 
 func main() {
 
-	var num int = 100
-	var str string = "example"
+	var name string = "Adarsh" // String Type
+	var eno int = 10 		  //  Integer Type
+	var grades float64 = 88.88 // Float Type
+	var is_pass bool = true // Boolean Type
 
-	fmt.Println(num)
-	fmt.Printf(str)
+	var x,y,z = 5,10,15 
+	var s,t,r string = "This", "is","string"
+
+	fmt.Print("Details: \n")
+
+	fmt.Println(name)
+	fmt.Println(eno)
+	fmt.Println(grades)
+	fmt.Println(is_pass)
+	fmt.Println(x,y,z)
+	fmt.Println(s,t,r)
 
 }
